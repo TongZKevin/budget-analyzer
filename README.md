@@ -6,15 +6,15 @@ A simple command-line tool for analyzing personal spending data from CSV files. 
 
 ## Features
 
-- 📊 Read and parse CSV-formatted budget data
-- 🔍 Automatically skip and report invalid data rows
-- 💰 Calculate total spending across all transactions
-- 📈 Break down spending by category
-- 🎯 Identify the highest spending category
-- 📉 Calculate average spending per transaction
-- 📊 (Optional) Generate visual bar charts of category spending
-- ✅ Comprehensive test coverage with pytest
-- 🔄 Continuous Integration with GitHub Actions
+- Read and parse CSV-formatted budget data
+- Automatically skip and report invalid data rows
+- Calculate total spending across all transactions
+- Break down spending by category
+- Identify the highest spending category
+- Calculate average spending per transaction
+- Optional: Generate visual bar charts of category spending
+- Comprehensive test coverage with pytest
+- Continuous Integration with GitHub Actions
 
 ## Project Structure
 
@@ -144,13 +144,13 @@ pytest --cov=src tests/
 ### Test Coverage
 
 The test suite covers:
-- ✅ Reading valid CSV files
-- ✅ Handling and skipping invalid data rows
-- ✅ Calculating total spending
-- ✅ Calculating category-wise spending
-- ✅ Finding the top spending category
-- ✅ Calculating average spending
-- ✅ Edge cases (empty data, missing files, whitespace handling)
+- Reading valid CSV files
+- Handling and skipping invalid data rows
+- Calculating total spending
+- Calculating category-wise spending
+- Finding the top spending category
+- Calculating average spending
+- Edge cases (empty data, missing files, whitespace handling)
 
 ## Continuous Integration
 
@@ -169,18 +169,18 @@ See `.github/workflows/ci.yml` for the complete configuration.
 This project was developed with AI assistance. Here's how AI contributed:
 
 ### AI Contributions
-- 🤖 Generated initial project structure and boilerplate code
-- 🧪 Wrote comprehensive unit tests covering core functionality
-- ⚙️ Created GitHub Actions CI/CD configuration
-- 📝 Assisted with documentation and code comments
-- 🎨 Suggested matplotlib integration for visualization
+- Generated initial project structure and boilerplate code
+- Wrote comprehensive unit tests covering core functionality
+- Created GitHub Actions CI/CD configuration
+- Assisted with documentation and code comments
+- Suggested matplotlib integration for visualization
 
 ### Human Contributions
-- 👨‍💻 Reviewed and validated all logic and algorithms
-- 🔍 Tested the tool with real-world data scenarios
-- 🚫 Rejected AI's suggestion to add database integration (kept it simple)
-- ✨ Refined error handling and edge case management
-- 📋 Made final decisions on feature scope and requirements
+- Reviewed and validated all logic and algorithms
+- Tested the tool with real-world data scenarios
+- Rejected AI's suggestion to add database integration (kept it simple)
+- Refined error handling and edge case management
+- Made final decisions on feature scope and requirements
 
 ### Collaboration Approach
 This project demonstrates effective human-AI collaboration:

@@ -10,9 +10,10 @@ This document records the AI-assisted development process for the budget-analyze
 ### Prompt 1: Project Creation
 **What I asked:**
 ```
-请帮我创建一个简单的 Python 项目，项目名为 budget-analyzer。
-项目目标：开发一个命令行工具，可以读取一个 CSV 格式的消费数据文件，并生成预算分析报告。
-[详细需求见原始prompt]
+Create a simple Python project named budget-analyzer.
+Goal: Develop a command-line tool that can read CSV format spending data 
+and generate budget analysis reports.
+[See original prompt for detailed requirements]
 ```
 
 **What AI provided:**
@@ -23,22 +24,22 @@ This document records the AI-assisted development process for the budget-analyze
 - Sample data and documentation
 
 **What I accepted:**
-✅ Overall project structure - clean and organized
-✅ Core analysis functions - well-designed with type hints
-✅ Error handling approach - gracefully skips invalid data
-✅ Test coverage strategy - covers edge cases
-✅ GitHub Actions workflow - tests on multiple Python versions
+- Overall project structure - clean and organized
+- Core analysis functions - well-designed with type hints
+- Error handling approach - gracefully skips invalid data
+- Test coverage strategy - covers edge cases
+- GitHub Actions workflow - tests on multiple Python versions
 
 **What I modified/rejected:**
-❌ **Rejected:** AI initially suggested using a database (SQLite) for data storage
-- **Reason:** Violates project requirement "不依赖外部 API" and "保持代码简单"
+**Rejected:** AI initially suggested using a database (SQLite) for data storage
+- **Reason:** Violates project requirement for no external dependencies and keeping code simple
 - **Action:** Kept CSV-only approach
 
-❌ **Rejected:** AI suggested adding a web interface
+**Rejected:** AI suggested adding a web interface
 - **Reason:** Project is specifically a CLI tool, adding web UI would overcomplicate
 - **Action:** Stayed with command-line interface only
 
-✅ **Modified:** Error handling in CSV reading
+**Modified:** Error handling in CSV reading
 - **AI version:** Generic exception handling
 - **My decision:** Made it more specific with line-by-line validation and user-friendly warnings
 - **Why:** Better user experience when dealing with real-world messy data
@@ -57,7 +58,7 @@ def calculate_total_spending(records: List[Dict[str, str]]) -> float:
 ```
 
 **Human Decision:**
-✅ **Accepted all type hints**
+**Accepted all type hints**
 - **Reason:** Improves code readability and helps catch bugs early
 - **Benefit:** Makes the code more maintainable and professional
 
@@ -72,7 +73,7 @@ AI broke down the analysis into small, focused functions:
 - `print_report()` - presentation
 
 **Human Decision:**
-✅ **Accepted this architecture**
+**Accepted this architecture**
 - **Reason:** Each function has a single responsibility (SRP)
 - **Benefit:** Easy to test, easy to understand, easy to modify
 
@@ -92,18 +93,18 @@ AI broke down the analysis into small, focused functions:
 
 **Human Modifications:**
 
-✅ **Enhanced test fixtures:**
+**Enhanced test fixtures:**
 ```python
 # AI version: inline CSV strings
 # My enhancement: kept AI's approach but verified test data accuracy
 ```
 
-✅ **Added realistic test scenarios:**
+**Added realistic test scenarios:**
 - Multiple categories with same total
 - CSV with extra whitespace
 - Files with missing required fields
 
-❌ **Rejected:** AI suggested mocking file I/O
+**Rejected:** AI suggested mocking file I/O
 - **Reason:** Testing with actual temp files is more realistic for this simple project
 - **Action:** Used `tempfile.NamedTemporaryFile` instead
 
@@ -121,10 +122,10 @@ Complete `.github/workflows/ci.yml` with:
 - CLI execution test
 
 **Human Decision:**
-✅ **Accepted the workflow structure**
+**Accepted the workflow structure**
 - **Reason:** Industry-standard approach, comprehensive testing
 
-❌ **Removed:** AI suggested adding code coverage reporting to external service
+**Removed:** AI suggested adding code coverage reporting to external service
 - **Reason:** Overkill for a simple course project
 - **Action:** Kept local pytest coverage only
 

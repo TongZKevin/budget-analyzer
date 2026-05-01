@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 Slide 1: Title & Hook (0:00 - 1:00)
+## Slide 1: Title & Hook (0:00 - 1:00)
 
 ### Visual
 - Title: "Budget Analyzer: A Simple CLI Tool for Personal Finance"
@@ -32,7 +32,7 @@
 
 ---
 
-## 📐 Slide 2: Project Structure (1:00 - 2:30)
+## Slide 2: Project Structure (1:00 - 2:30)
 
 ### Visual
 ```
@@ -69,7 +69,7 @@ budget-analyzer/
 
 ---
 
-## 💻 Slide 3: Live Demo (2:30 - 5:30)
+## Slide 3: Live Demo (2:30 - 5:30)
 
 ### Preparation
 - Have terminal open in project directory
@@ -96,17 +96,17 @@ python src/budget_analyzer.py data/sample_budget.csv
 
 > "And here's what we get:
 >
-> ✅ **Total spending:** $307.89 across 15 transactions
+> Total spending: $307.89 across 15 transactions
 >
-> ✅ **Category breakdown:**
+> Category breakdown:
 > - Food: $131 (43% of spending) 
 > - Entertainment: $69
 > - Transportation: $56
 > - School: $50
 >
-> ✅ **Top category:** Food at $131
+> Top category: Food at $131
 >
-> ✅ **Average transaction:** About $20
+> Average transaction: About $20
 >
 > The report is clear, formatted, and immediately actionable."
 
@@ -141,7 +141,7 @@ pytest -v
 
 ---
 
-## 🤖 Slide 4: AI Collaboration (5:30 - 7:00)
+## Slide 4: AI Collaboration (5:30 - 7:00)
 
 ### Visual
 - Screenshot of your initial prompt (in Chinese)
@@ -165,13 +165,13 @@ pytest -v
 > - Documentation templates
 >
 > **What I accepted:**
-> ✅ Function decomposition - clean single-responsibility design
-> ✅ Error handling pattern - fail-soft approach
-> ✅ Test coverage strategy - comprehensive edge cases
-> ✅ Type hints - makes code more maintainable
+> - Function decomposition - clean single-responsibility design
+> - Error handling pattern - fail-soft approach
+> - Test coverage strategy - comprehensive edge cases
+> - Type hints - makes code more maintainable
 >
 > **What I rejected:**
-> ❌ Database integration - AI suggested SQLite
+> - Database integration - AI suggested SQLite
 >    - **Why rejected:** Violates 'keep it simple' requirement
 >    - Added unnecessary complexity
 >
@@ -179,7 +179,7 @@ pytest -v
 >    - **Why rejected:** Project is CLI-only
 >    - Would bloat dependencies
 >
-> ❌ External API integration
+> - External API integration
 >    - **Why rejected:** Must work offline
 >
 > **Critical insight:** AI is excellent at generating code, but I had to be the gatekeeper. Every AI suggestion was reviewed, tested, and either accepted, modified, or rejected based on project goals.
@@ -190,7 +190,7 @@ pytest -v
 
 ---
 
-## 💡 Slide 5: What Surprised Me (7:00 - 8:30)
+## Slide 5: What Surprised Me (7:00 - 8:30)
 
 ### Visual
 - Bullet points of key learnings
@@ -225,7 +225,7 @@ pytest -v
 
 ---
 
-## 🎯 Slide 6: Takeaways & Q&A (8:30 - 10:00)
+## Slide 6: Takeaways & Q&A (8:30 - 10:00)
 
 ### Visual
 - Key takeaways list
@@ -260,11 +260,11 @@ pytest -v
 > - All generated with AI help, refined by human judgment
 >
 > **Project metrics:**
-> - ✅ 14 tests passing
-> - ✅ CI pipeline green
-> - ✅ Runs on Python 3.8+
-> - ✅ Zero dependencies for core functionality
-> - ✅ Complete documentation
+> - 14 tests passing
+> - CI pipeline green
+> - Runs on Python 3.8+
+> - Zero dependencies for core functionality
+> - Complete documentation
 >
 > **What I'd do differently:**
 > - Add budget threshold warnings
@@ -292,7 +292,7 @@ pytest -v
 
 ---
 
-## 🎬 Backup Plan (If Demo Fails)
+## Backup Plan (If Demo Fails)
 
 ### If Live Demo Breaks
 
