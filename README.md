@@ -1,6 +1,6 @@
 # Budget Analyzer
 
-![CI](https://github.com/zt286/budget-analyzer/workflows/CI/badge.svg)
+![CI](https://github.com/TongZKevin/budget-analyzer/workflows/CI/badge.svg)
 
 A simple command-line tool for analyzing personal spending data from CSV files. This tool reads budget/expense data and generates comprehensive analysis reports including total spending, category breakdowns, and spending statistics.
 
