@@ -149,7 +149,7 @@ except ValueError:
 ```
 
 **Human Evaluation:**
-✅ **Fully endorsed this approach**
+**Fully endorsed this approach**
 - **Reason:** Real-world CSV files are messy; crashing on first error is poor UX
 - **Learning:** This is more robust than strict validation
 
@@ -168,7 +168,7 @@ AI created a comprehensive README with:
 - AI collaboration section
 
 **Human Refinement:**
-✅ **Added:**
+**Added:**
 - Quick start guide (QUICKSTART.md)
 - Sample output examples (SAMPLE_OUTPUT.md)
 - Conventional commit messages guide (COMMIT_MESSAGES.md)
@@ -181,21 +181,21 @@ AI created a comprehensive README with:
 
 ### 1. AI as a Scaffolding Tool
 AI excels at:
-- ✅ Generating boilerplate code
-- ✅ Creating test structures
-- ✅ Writing documentation templates
+- Generating boilerplate code
+- Creating test structures
+- Writing documentation templates
 
 AI struggles with:
-- ❌ Understanding implicit project constraints
-- ❌ Making scope decisions
-- ❌ Balancing simplicity vs. features
+- Understanding implicit project constraints
+- Making scope decisions
+- Balancing simplicity vs. features
 
 ### 2. The Importance of Clear Requirements
 **Key insight:** The more specific my prompt, the better AI's output.
 
 Compare:
-- ❌ Vague: "Create a budget analyzer"
-- ✅ Specific: "Create a CLI tool that reads CSV with columns [date, category, description, amount] and prints category totals"
+- Vague: "Create a budget analyzer"
+- Specific: "Create a CLI tool that reads CSV with columns [date, category, description, amount] and prints category totals"
 
 ### 3. Code Review is Non-Negotiable
 Even with AI-generated code, I had to:
@@ -225,15 +225,15 @@ By reviewing AI's suggestions, I learned:
 **Time saved:** ~3-4 hours of boilerplate writing
 
 ### Iteration 2: Running Issues
-**Prompt:** "我该怎么使用呢 跟我解释一下"
-**AI Response:** Detailed usage guide in Chinese
+**Prompt:** "How do I use this? Please explain."
+**AI Response:** Detailed usage guide
 **Human action:** Tested instructions, found conda DLL issue
 
 ### Iteration 3: Debugging
 **Problem:** `pip install` failing with DLL error
 **AI Diagnosis:** Correctly identified conda environment corruption
 **AI Solution:** Suggested `conda install pytest` instead
-**Result:** ✅ Worked perfectly
+**Result:** Worked perfectly
 
 ### Iteration 4: Documentation Enhancement
 **Prompt:** Implicitly asked for final project deliverables

@@ -144,7 +144,7 @@ pytest -v
 ## Slide 4: AI Collaboration (5:30 - 7:00)
 
 ### Visual
-- Screenshot of your initial prompt (in Chinese)
+- Screenshot of your initial prompt
 - Side-by-side comparison: "AI Suggested" vs "I Decided"
 
 ### Script
@@ -175,7 +175,7 @@ pytest -v
 >    - **Why rejected:** Violates 'keep it simple' requirement
 >    - Added unnecessary complexity
 >
-> ❌ Web interface - AI proposed Flask frontend  
+> - Web interface - AI proposed Flask frontend  
 >    - **Why rejected:** Project is CLI-only
 >    - Would bloat dependencies
 >
@@ -306,7 +306,7 @@ pytest -v
 
 ---
 
-## 📋 Pre-Presentation Checklist
+## Pre-Presentation Checklist
 
 - [ ] Test run the program (verify it works)
 - [ ] Test run pytest (verify all tests pass)
@@ -318,7 +318,7 @@ pytest -v
 
 ---
 
-## ❓ Q&A Preparation
+## Q&A Preparation
 
 ### Expected Question 1: "Why not use pandas?"
 **Answer:**
@@ -354,7 +354,7 @@ pytest -v
 
 ---
 
-## 🎥 Recording Tips (If Pre-Recording)
+## Recording Tips (If Pre-Recording)
 
 1. **Audio:** Use a decent microphone, minimize background noise
 2. **Screen:** 1920x1080 resolution, large terminal font (16-18pt)
@@ -365,7 +365,7 @@ pytest -v
 
 ---
 
-## ⏱️ Timing Breakdown
+## Timing Breakdown
 
 - 0:00 - 1:00: Hook (Why this matters)
 - 1:00 - 2:30: Architecture (How it's built)
@@ -378,4 +378,4 @@ pytest -v
 
 ---
 
-**Good luck! You've got this! 🚀**
+**Good luck! You've got this!**
