@@ -1,0 +1,7 @@
+# Output Directory
+
+This directory is used to store generated output files such as:
+- Category spending charts (PNG format)
+- Analysis reports (if saved to files)
+
+Files in this directory are generated at runtime and are ignored by git.
